@@ -1,0 +1,307 @@
+body{
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+ h3 {
+    font-size: 2.75rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#title{
+    background-color:#94d0cc;
+    color: white;
+    height: 200%;
+}
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+   
+}
+.container-fluid{
+    padding: 5% 15% 7%;
+    width: 100%;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    
+}  
+
+
+/* Navigation Bar */
+
+.navbar{
+    margin:0 0 4.5rem;
+     width: 90%; 
+     /* padding-top: -30px; */
+    /* position: relative;
+    display: flex; */
+}
+
+.brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: white;
+    margin-left: 12%;
+}
+.brand:hover{
+    color: white;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family:"Montserrat-Light";
+   
+}
+/* Targeting content and two btn */
+#row{
+    margin-left: 10%;
+}
+/*download btns spacing created custom class downloadbtn
+ since btn would apply margin to rest page btns*/
+.downloadbtn{
+    margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.title-image{
+    width:52%;
+    /* transform: rotate(25deg); */
+    position: absolute; 
+    border-radius: 100%;
+    top:-2em; 
+    right: 30%;
+    bottom:0px; 
+}
+/*Features*/
+#features{
+    padding: 7% 15% 0% ;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+#feature-container{
+    text-align: center;
+    /* padding: 5%; */
+}
+.feature-title{
+    font-size: 1.5rem;
+    font-family: "Montserrat,san-serif";
+    font-weight: bold; 
+}
+.feature-description{
+    color: #8f8f8f;
+}
+/* feature icons custom */
+.feature-icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-icons:hover{
+    color:  #ff4c68;
+    
+}
+/* Testimonial Section */
+#testimonials{
+   
+    text-align: center;
+    background-color:#94d0cc ;
+    color:#fff;
+}
+.testimonial-text{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+/* pricing column custom class */
+.pricing-column{
+    padding: 3% 2%;
+}
+/* Press Section */
+#press{
+    background-color: #94d0cc;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* Call to action */
+#cta{
+    background-color:#fff;
+    /* #ef8172 */
+    text-align: center;
+    padding:5% 0 15% ;
+}
+.cta-heading{
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    color: #fff;
+
+}
+/* Footer */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.footer-icon{
+    margin:0  1% 2%;
+    color: #111;
+}
+/* SEARCH */
+#search{
+    padding:2% ;
+    height: auto;
+    width: auto;
+    background-color: aqua;
+    /* margin: 2% 0 0 2%; */
+}
+#searchfilter{
+    background-color: aqua;
+    /* margin: 2% 0 0 2%; */
+}
+.together{
+    padding: 10%;
+}
+/* #searchterm{
+     /* margin: 15% 0 0 15%;  */
+     /* width: 50%;} */
+
+.searchcontent{
+    width: 100%;
+}
+/* Cards */
+.pcard{
+    top: 20%;
+    text-align: left;
+}
+.card{
+    width: 25 rem;
+    
+}
+@media (max-width:1028px) {
+    .card{
+        width: 10rem;
+    }
+    
+}
+#cardresize{
+    /* padding-left: 20 rem; */
+    /* display: inline-block; */
+    right:20%;
+    }
+/* Footer 2 */
+i {
+    color: #0000cc;
+    font-size: 20px
+}
+p {
+    font-family: 'Tajawal', sans-serif
+}
+
+.lead {
+    font-family: 'Sanchez 200', serif
+}
+/* CSS WAVE */
+.wave-animation {
+    position: relative;
+    width: 100%;
+    height: 143px;
+    background-color: #8bcfd4;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+  .wave-animation .wave {
+    position: absolute;
+    width: 100%;
+    height: 143px;/*PNG*/
+    top:0;
+    left:0;
+    background-image: url('https://vitalflow.com.ar/img/anim-onda.png');
+    animation: anim 10s linear infinite;
+    
+  }
+  .wave-animation .wave:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    top:0;
+    left:0;
+    background-image: url('https://vitalflow.com.ar/img/anim-onda.png');
+    opacity: 0.4;
+    animation: anim-rev 10s linear infinite;
+    
+  }
+  .wave-animation .wave:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    top:0;
+    left:0;
+    background-image: url('https://vitalflow.com.ar/img/anim-onda.png');
+    opacity: 0.6;
+    animation-delay: -5s;
+    animation: anim 20s linear infinite;
+    
+  }
+  @keyframes anim {
+    0%
+    {
+      background-position: 0;
+    }
+    100%
+    {
+      background-position: 1360px;
+    }
+  }
+  @keyframes anim-rev {
+    0%
+    {
+      background-position: 1360;
+    }
+    100%
+    {
+      background-position: 0px;
+    }
+  }
